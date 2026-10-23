@@ -8,3 +8,12 @@ Original code made by bitbof at <a href="https://klecks.org">klecks.org</a>
 - `npm run start` - dev server (to run `standalone` locally)
 - `npm run build` - build `standalone` into `/dist/`
 - `npm run build:embed` - build `embed` into `/dist/`
+
+# deno equivalents (same order)
+- `deno ci`
+- `deno task icon:build`
+- `deno task lang:build`
+- `deno task lang:build -- --missing`
+- `deno task start`
+- `deno task build`
+- `deno task build:embed`
