@@ -1,0 +1,20 @@
+.recoveryBubble {
+    height: 20px;
+    min-width: 20px;
+    padding: 0 6px;
+    margin-left: 10px;
+    display: none;
+    border-radius: 5px;
+
+    background: var(--px-note-1);
+    box-shadow: 0 0 0 1px var(--px-note-2);
+    color: var(--px-note-3);
+}
+
+:global(.px-theme-dark) {
+    .recoveryBubble {
+        background: unset;
+        box-shadow: 0 0 0 1px var(--px-note-1);
+        color: var(--px-note-1);
+    }
+}

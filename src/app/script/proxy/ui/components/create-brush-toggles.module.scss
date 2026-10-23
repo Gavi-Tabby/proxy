@@ -1,0 +1,29 @@
+// toggle shows one of two icons, depending on if it's active
+.iconOn {
+    display: none;
+}
+
+.iconOff {
+    display: block;
+}
+
+:global(.px-box-toggle--active) {
+    .iconOn {
+        display: block;
+    }
+
+    .iconOff {
+        display: none;
+    }
+}
+
+// inactive dimming like Options (instead of BoxToggle's default)
+:global(.px-box-toggle--custom-el).toggle:not(:global(.px-box-toggle--active)) > * {
+    opacity: 0.75;
+}
+
+:global(:root.px-theme-dark) {
+    .toggle:not(:global(.px-box-toggle--active)) > * {
+        opacity: 0.6;
+    }
+}
