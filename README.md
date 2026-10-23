@@ -10,8 +10,7 @@ Original code made by bitbof at <a href="https://klecks.org">klecks.org</a>
 - `npm run build:embed` - build `embed` into `/dist/`
 
 ## deno equivalents (same order)
-### I only added this as a reminder to myself
-### since I cannot use npm on my school's given computer.
+I only added this as a reminder to myself since I cannot use npm on my school's given computer.
 - `deno ci`
 - `deno task icon:build`
 - `deno task lang:build`
