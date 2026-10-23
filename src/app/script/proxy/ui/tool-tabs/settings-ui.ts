@@ -334,7 +334,7 @@ export class SettingsUi {
                         tagName: 'a',
                         content: 'Proxima',
                         props: {
-                            href: 'https://en.pronouns.page/@GavvTabb',
+                            href: 'https://github.com/Gavi-Tabby',
                             target: '_blank',
                             tabIndex: -1,
                         },
