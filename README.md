@@ -9,7 +9,7 @@ Original code made by bitbof at <a href="https://klecks.org">klecks.org</a>
 - `npm run build` - build `standalone` into `/dist/`
 - `npm run build:embed` - build `embed` into `/dist/`
 
-<h3>deno equivalents (same order)</h3>
+## deno equivalents (same order)
 - `deno ci`
 - `deno task icon:build`
 - `deno task lang:build`
