@@ -48,7 +48,7 @@ import { TIndexBounds } from '../../bb/bb-types';
 import { LayerCompositor } from './layer-compositor';
 import { getMixModeStr } from './get-mix-mode';
 
-export const MAX_LAYERS = 16;
+export const MAX_LAYERS = 32;
 
 export type TKlCanvasLayer = {
     id: TLayerId;

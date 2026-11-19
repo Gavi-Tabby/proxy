@@ -1,5 +1,19 @@
 Original code made by bitbof at <a href="https://klecks.org">klecks.org</a>
 
+# Changes
+- Larger canvas size
+    - can go to 4096x4096 (may cause issues with image storage and recovery due to exessive sizes)
+- Modified icons
+    - this is a prefrence change, this doesn't *need* to exist, i just wanted to.
+- Only pixel brush
+    - another prefrence change, truly i just prefer the pixel brush over the others.
+- Default canvas
+    - By default the canvas is 1024x1024 and transparent, I just like it more.
+- A reload button
+    - next to the save button (might be a bad idea) you can reload the page to discard the current drawing.
+- Layer max increase
+    - it's been set to 32 instead of 16. this may be too much.
+
 # Commands
 - initialize via `npm ci` (requires node and npm to be installed already)
 - `npm run icon:build` - generate icon files necessary to run Proxy
