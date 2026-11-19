@@ -136,9 +136,9 @@ export class KlColorSlider {
         };
         this.primaryColorHsv = BB.ColorConverter.toHSV(p.startValue); // BB.HSV
         this.secondaryColorRgb = {
-            r: 76,
-            g: 0,
-            b: 184,
+            r: 68,
+            g: 136,
+            b: 100,
         };
         this.secondaryColorHsv = BB.ColorConverter._RGBtoHSV(this.secondaryColorRgb); // BB.HSV
 

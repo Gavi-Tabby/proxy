@@ -187,11 +187,11 @@ export function newImageDialog(p: {
     });
     const presetOversizeBtn = BB.el({
         ...presetBtnConfig,
-        textContent: LANG('new-oversize'),
+        textContent: "Default",
         destroyer,
         onClick: () => {
-            widthInput.setValue(workspaceWidth + 500, true);
-            heightInput.setValue(workspaceHeight + 500, true);
+            widthInput.setValue(1024, true);
+            heightInput.setValue(1024, true);
             updateRatio();
         },
     });
@@ -263,12 +263,12 @@ export function newImageDialog(p: {
     });
     templateWrapper.append(select.getElement());
 
-    let backgroundRgba = { r: 255, g: 255, b: 255, a: 1 };
+    let backgroundRgba = { r: 0, g: 0, b: 0, a: 0 };
 
     const colorOptionsArr = [
+        { r: 0, g: 0, b: 0, a: 0 },
         { r: 255, g: 255, b: 255, a: 1 },
         { r: 0, g: 0, b: 0, a: 1 },
-        { r: 0, g: 0, b: 0, a: 0 },
         {
             r: currentColor.r,
             g: currentColor.g,

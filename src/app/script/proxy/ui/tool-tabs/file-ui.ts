@@ -13,11 +13,11 @@ import * as classes from './file-ui.module.scss';
 import { BrowserStorageHeaderUi } from '../components/browser-storage-header-ui';
 import { css } from '../../../bb/base/base';
 
-const newImageImg = getIconUrl('new-image');
-const exportImg = getIconUrl('export');
+import newImageImg from 'url:/src/app/img/ui/new-image.png';
+import importImg from 'url:/src/app/img/ui/import.png';
+import exportImg from 'url:/src/app/img/ui/export.png';
 const shareImg = getIconUrl('share');
 const uploadImg = getIconUrl('upload');
-const importImg = getIconUrl('import');
 const LS_SHOW_SAVE_DIALOG = 'px-save-dialog';
 
 const createSpacer = (): HTMLElement => {

@@ -5,10 +5,10 @@ import { LANG } from '../../../language/language';
 import { PointerListener } from '../../../bb/input/pointer-listener';
 import { css } from '../../../bb/base/base';
 
-const newImageImg = getIconUrl('new-image');
-const importImg = getIconUrl('import');
-const exportImg = getIconUrl('export');
-const shareImg = getIconUrl('share');
+import newImageImg from 'url:/src/app/img/ui/new-image.png';
+import importImg from 'url:/src/app/img/ui/import.png';
+import exportImg from 'url:/src/app/img/ui/export.png';
+const shareImg = getIconUrl('reload-icon');
 /**
  * Topmost row of buttons in toolspace (with the app logo)
  */
@@ -100,34 +100,33 @@ export class ToolspaceTopRow {
             onClick: p.onNew,
             title: LANG('file-new'),
             image: newImageImg,
-            extraPadding: 1,
+            extraPadding: 0,
             contain: true,
         });
         const importButton = createButton({
             onClick: p.onImport,
             title: LANG('file-import'),
             image: importImg,
-            extraPadding: 1,
+            extraPadding: 0,
             contain: true,
         });
         const saveButton = createButton({
             onClick: p.onSave,
             title: LANG('file-save'),
             image: exportImg,
-            extraPadding: 1,
+            extraPadding: 0,
             contain: true,
         });
 
-        let shareButton = null;
-        if (BB.canShareFiles()) {
-            shareButton = createButton({
-                onClick: p.onShare,
-                title: LANG('file-share'),
+        const shareButton = createButton({
+            onClick: () => {
+                document.location.href="/";
+            },
+                title: "reset",
                 image: shareImg,
                 contain: true,
                 darkInvert: true,
             });
-        }
         const helpButton = createButton({
             onClick: p.onHelp,
             title: LANG('help'),

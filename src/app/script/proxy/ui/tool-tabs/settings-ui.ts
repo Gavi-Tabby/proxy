@@ -15,7 +15,7 @@ import { createImage } from '../../../bb/base/ui';
 import { PixelatedZoomToggle } from '../components/pixelated-zoom-toggle';
 
 const bitbofLogoImg = getIconUrl('bitbof-logo');
-const proximaImg = getIconUrl('proxima-icon');
+const proximaImg = getIconUrl('proxima-logo');
 const uiSwapImg = getIconUrl('ui-swap-lr');
 export type TSettingsUiParams = {
     onLeftRight: () => void;

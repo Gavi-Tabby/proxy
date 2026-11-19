@@ -328,9 +328,10 @@ export class KlApp {
                             hasClipping: false,
                             image: {
                                 fill: BB.ColorConverter.toRgbStr({
-                                    r: 23,
-                                    g: 24,
-                                    b: 41,
+                                    r: 255,
+                                    g: 255,
+                                    b: 255,
+                                    a: 0,
                                 }),
                             },
                         },
@@ -1377,7 +1378,7 @@ export class KlApp {
             width: 250,
             height: 30,
             svHeight: 100,
-            startValue: new BB.RGB(52, 159, 105),
+            startValue: new BB.RGB(0, 0, 0),
             onPick: setBrushColor,
             onEyedropper: (isActive) => {
                 if (isActive) {

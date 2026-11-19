@@ -5,21 +5,22 @@ import glTiltShiftImg from 'url:/src/app/img/ui/edit-tilt-shift.png';
 import glBlurImg from 'url:/src/app/img/ui/edit-triangle-blur.png';
 import glUnsharpMaskImg from 'url:/src/app/img/ui/edit-unsharp-mask.png';
 
-const glBrightnessContrastImg = getIconUrl('edit-brightness-contrast');
-const cropExtendImg = getIconUrl('edit-crop');
-const glCurvesImg = getIconUrl('edit-curves');
-const flipImg = getIconUrl('edit-flip');
-const glHueSaturationImg = getIconUrl('edit-hue-saturation');
-const glPerspectiveImg = getIconUrl('edit-perspective');
-const resizeImg = getIconUrl('edit-resize');
-const rotateImg = getIconUrl('edit-rotate');
-const toAlphaImg = getIconUrl('edit-to-alpha');
-const transformImg = getIconUrl('edit-transform');
-const gridImg = getIconUrl('edit-grid');
-const noiseImg = getIconUrl('edit-noise');
-const patternImg = getIconUrl('edit-pattern');
-const vanishPointImg = getIconUrl('edit-vanish-point');
-const distortImg = getIconUrl('edit-distort');
+import glBrightnessContrastImg from 'url:/src/app/img/ui/edit-brightness-contrast.png';
+import cropExtendImg from 'url:/src/app/img/ui/edit-crop.png';
+import glCurvesImg from 'url:/src/app/img/ui/edit-curves.png';
+import flipImg from 'url:/src/app/img/ui/edit-flip.png';
+import glHueSaturationImg from 'url:/src/app/img/ui/edit-hue-saturation.png';
+import glPerspectiveImg from 'url:/src/app/img/ui/edit-perspective.png';
+import resizeImg from 'url:/src/app/img/ui/edit-resize.png';
+import rotateImg from 'url:/src/app/img/ui/edit-rotate.png';
+import toAlphaImg from 'url:/src/app/img/ui/edit-to-alpha.png';
+import transformImg from 'url:/src/app/img/ui/edit-transform.png';
+import gridImg from 'url:/src/app/img/ui/edit-grid.png';
+import noiseImg from 'url:/src/app/img/ui/edit-noise.png';
+import patternImg from 'url:/src/app/img/ui/edit-pattern.png';
+import vanishPointImg from 'url:/src/app/img/ui/edit-vanish-point.png';
+import distortImg from 'url:/src/app/img/ui/edit-distort.png';
+
 export const FILTER_LIB_STATUS = {
     isLoaded: false,
 };
